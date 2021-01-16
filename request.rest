@@ -1,0 +1,26 @@
+POST http://localhost:3001/todos
+Content-Type: application/json
+
+{
+  "description": "Third task is opening laptop and starting work"
+}
+
+###
+GET http://localhost:3001/todos
+
+
+###
+GET http://localhost:3001/todos/3
+
+
+###
+PUT http://localhost:3001/todos/2
+Content-Type: application/json
+
+{
+  "description": "i am  updated todo 2"
+}
+
+###
+DELETE http://localhost:3001/todos/1
+
